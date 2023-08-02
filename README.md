@@ -11,4 +11,4 @@
 ## ***Различные алгоритмы***
 
 ### Searching
-- [binary search](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/searching/binarySearch.js)
+- [Binary search](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/searching/binarySearch.js)
