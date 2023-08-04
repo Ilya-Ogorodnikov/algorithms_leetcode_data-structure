@@ -51,7 +51,7 @@ class Queue {
     return this.#size;
   }
 
-  // Вывести текущее наполнении очереди
+  // Вывести текущее наполнение очереди
   get print() {
     return this.#queue;
   }
