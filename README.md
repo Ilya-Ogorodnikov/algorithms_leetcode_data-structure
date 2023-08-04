@@ -12,3 +12,8 @@
 
 ### Searching
 - [Binary search](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/searching/binarySearch.js)
+
+### Sorting
+- [Bubble sort](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/sorting/bubbleSort.js)
+- [Selection sort](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/sorting/selectionSort.js)
+- [Quick sort](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/sorting/quickSort.js)
