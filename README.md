@@ -3,6 +3,7 @@
 ## ***Структуры данных***
 
 - [Stack](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/dataStructure/stack.js)
+- [Queue](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/dataStructure/queue.js)
 ## ***Различные алгоритмы***
 
 ### Searching

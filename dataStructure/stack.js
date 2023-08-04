@@ -4,14 +4,14 @@ class Stack {
   #size;
   #stack;
 
-  constructor () {
+  constructor() {
     this.#size = 0;
     this.#stack = [];
   }
 
   // Добавить элемент в конец стека
-  push(data) {
-    this.#stack[this.#size] = data;
+  push(element) {
+    this.#stack[this.#size] = element;
     this.#size++;
   }
 
@@ -38,7 +38,7 @@ class Stack {
   }
 
   // Вернуть текущее наполнение стека
-  get log() {
+  get print() {
     return this.#stack;
   }
 }
