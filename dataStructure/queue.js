@@ -11,12 +11,14 @@ class Queue {
   }
 
   // Добавить элемент в очередь
+  // Time Complexity O(1)
   enqueue(element) {
     this.#queue[this.#size] = element;
     this.#size++;
   }
 
   // Удалить первый элемент
+  // Time Complexity O(n)
   dequeue() {
     if (!this.#size) {
       return;
@@ -35,6 +37,7 @@ class Queue {
   }
 
   // Вернуть первый элемент очереди
+  // Time Complexity O(1)
   front() {
     if (!this.#size) return;
 
@@ -42,16 +45,19 @@ class Queue {
   }
 
   // Пустая ли очередь
+  // Time Complexity O(1)
   get isEmpty() {
     return !this.#size;
   }
 
   // Вернуть размер очереди
+  // Time Complexity O(1)
   get size() {
     return this.#size;
   }
 
   // Вывести текущее наполнение очереди
+  // Time Complexity O(1)
   get print() {
     return this.#queue;
   }

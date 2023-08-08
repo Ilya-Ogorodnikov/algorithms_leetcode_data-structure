@@ -10,17 +10,20 @@ class Stack {
   }
 
   // Добавить элемент в конец стека
+  // Time Complexity O(1)
   push(element) {
     this.#stack[this.#size] = element;
     this.#size++;
   }
 
   // Вернуть последний элемент стека
+  // Time Complexity O(1)
   peek() {
     return this.#stack[this.#size - 1];
   }
 
   // Удалить последний элемент стека
+  // Time Complexity O(1)
   pop() {
     if (!this.#size) return;
 
@@ -33,11 +36,13 @@ class Stack {
   }
 
   // Вернуть длину стека
+  // Time Complexity O(1)
   get length() {
     return this.#size;
   }
 
   // Вернуть текущее наполнение стека
+  // Time Complexity O(1)
   get print() {
     return this.#stack;
   }
