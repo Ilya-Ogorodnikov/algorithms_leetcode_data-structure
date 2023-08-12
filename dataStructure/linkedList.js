@@ -1,3 +1,7 @@
+// связный список — это цепочечная структура данных, где каждый узел состоит из двух частей:
+// данных узла и указателя на следующий узел.
+// Связный список и условный массив являются линейными структурами данных с сериализованным хранилищем.
+
 class Node {
   constructor(data, next = null) {
     this.value = data;
@@ -68,7 +72,6 @@ class LinkedList {
 
     if (currentNode) {
       while (currentNode.next) {
-        console.log("here");
         if (currentNode.next.value === value) {
           deletedNode = currentNode.next;
           currentNode.next = currentNode.next.next;
