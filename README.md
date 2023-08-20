@@ -20,3 +20,4 @@
 - [53. Maximum Subarray](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/leetcode/maxSubArray.js)
 - [2627. Debounce](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/leetcode/debounce.js)
 - [2629. Function Composition](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/leetcode/compose.js)
+- [2623. Memoize](https://github.com/Ilya-Ogorodnikov/algorithms_leetcode_data-structure/blob/main/leetcode/memoize.js)
