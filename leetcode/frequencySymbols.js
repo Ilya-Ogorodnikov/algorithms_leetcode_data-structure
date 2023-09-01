@@ -7,6 +7,9 @@ const string1 = "";
  * Если приходит недопустимая строка, возвращаем пустую строку
  */
 
+// Time Complexity  O(n)
+// Space Complexity O(1)
+
 /**
  *
  * @param {string} str
