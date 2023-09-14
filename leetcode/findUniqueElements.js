@@ -20,6 +20,12 @@
 const array1 = [0, 1,21,35,41,54]
 const array2 = [1,2,3,4,5,16,17,18,19]
 
+/**
+ * 
+ * @param {number[]} arr1 
+ * @param {number[]} arr2 
+ * @returns {number[]}
+ */
 const findUniqueElements = (arr1, arr2) => {
   let firstPointer = 0;
   let secondPointer = 0;
