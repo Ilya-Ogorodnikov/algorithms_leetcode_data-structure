@@ -11,7 +11,7 @@
  */
 const bubbleSort = (arr) => {
   for (let index = 0; index < arr.length; index++) {
-    for (let j = 0; j < array.length; j++) {
+    for (let j = 0; j < arr.length; j++) {
       if (arr[j + 1] < arr[j]) {
         // Меняем элементы местами через дестрктурирующее присваивание,
         // чтобы не менять местами через дополнительную переменную
